@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background: #f9f9f9;
+    }
+
+    header {
+      padding: 40px 20px;
+      background: #333;
+      color: #fff;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+
+    section {
+      padding: 40px 20px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      font-size: 2rem;
+      color: #333;
+    }
+
+    .about img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      margin: 20px auto;
+      display: block;
+      border: 3px solid #007bff;
+    }
+
+    .projects {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .project-box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      flex: 1 1 250px;
+      max-width: 300px;
+    }
+
+    .contact form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    input, textarea {
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+      width: 100%;
+    }
+
+    button {
+      padding: 10px;
+      border: none;
+      background: #007bff;
+      color: #fff;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Hello</h1>
+    <p>I am Ramanan M – An Artificial Intelligence & Machine Learning Student</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </header>
+
+  <!-- About Me -->
+  <section class="about">
+    <h2>About Me</h2>
+    <img src="https://ibb.co/WpFpd5Bm/photo.jpg" alt="Profile Photo">
+    <p>I am passionate about Artificial Intelligence and Machine Learning.<br>
+       Exploring projects in AI-based creativity and automation.</p>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-box">
+        <h3>Project 1</h3>
+        <p>Image Synthesis with models such as DALL·E to create visuals from prompts.</p>
+      </div>
+      <div class="project-box">
+        <h3>Project 2</h3>
+        <p>Student Portfolio showcasing AI/ML skills and web development design.</p>
+      </div>
+      <div class="project-box">
+        <h3>Project 3</h3>
+        <p>Music Composition using platforms like Magenta for generating new music.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me -->
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" value="Ramanan M" readonly>
+      <input type="email" value="24bsai241ramananm@skacas.ac.in" readonly>
+      <input type="text" value="9344739613" readonly>
+      <textarea placeholder="Enter your message here..."></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Ramanan M | My Portfolio</p>
+  </footer>
+
+</body>
+</html>
